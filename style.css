@@ -1,0 +1,84 @@
+
+
+
+.sidebar {
+  height: 800px;
+  width: 50px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 0px;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+/* Style sidebar links */
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.tab{
+	float: left;
+	margin-left: 55px;
+	background-color: #f1f1f1;
+	width: 20%;
+}
+.tab button{
+	margin-top: 10px;
+	margin-left: 65px;
+}
+.tab h6{
+	margin-left: 20px;
+}
+
+.formtab{
+  float: right;
+  width: 70%;
+
+  margin-right: 10px;
+  padding-top: 10px;
+  background-color: #f1f1f1;
+}
+.metric{
+  float: right;
+  background-color: grey;
+  width: 80%;
+  height: 200px;
+  margin-left: 10px;
+  margin-right: 100px;
+  padding: 10px;
+}
+.metric form-group{
+  float: left;
+}
+.clr{
+  clear: both;
+}
+.filter{
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.frequency{
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.next{
+  float: right;
+  width: 75%;
+  background-color: #f1f1f1;
+}
